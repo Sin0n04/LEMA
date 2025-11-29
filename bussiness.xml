@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<business id = "B1" type = "miscellanious">
+    <departments>
+        <department id="S1">
+            <name>Accessories</name>
+            <description>All kinds of accessories for your devices</description>
+        </department>
+        
+        <department id="S2">
+            <name>Electronics</name>
+            <description>Latest electronic gadgets and devices</description>
+        </department>
+        
+        <department id = "S3">
+            <name>literature</name>
+            <description>Books, Magazines, and more</description>
+        </department>
+    </departments>
+    
+    <location country = "spain" region = "euskadi">
+        <city>Bilbao</city>
+        <address>
+            <street>Calle Gran Via de Don Diego Lopez de Haro, 50</street>
+            <postalcode>48011</postalcode>
+        </address>
+    </location>
+    
+    <manager>
+        <name>Margarita Jimenez</name>
+        <contact>
+            <phone>333333333</phone>
+            <email>margaritajimenez@gmail.com</email>
+        </contact>
+    </manager>
+    
+    <employees>
+        <employee id="E1" status = "full-time">
+            <name>Carlos Fernandez</name>
+            <position>Sales Associate</position>
+            <contact>
+                <phone>444444444</phone>
+            </contact>
+            
+        </employee>
+        
+        <employee id="E2" status = "part-time">
+            <name>Ana Lopez</name>
+            <position>Cashier</position>
+            <contact>
+                <phone>555555555</phone>
+            </contact>
+        </employee>
+        
+        <employee id="E3" status = "full-time">
+            <name>Javier gonzalez</name>
+            <position>Inventory Specialist</position>
+            <contact>
+                <phone>666666666</phone>
+            </contact>
+        </employee>
+    </employees>
+    
+
+    <catalog>
+        
+        <products>
+            <product id="P001" availability="in-stock">
+                <name>Gaming Laptop GX500</name>
+                <price currency="EUR">1299.99</price>
+                <warranty months="24"/>
+            </product>
+            
+            <product id="P002" availability="out-of-stock">
+                <name>Wireless Mechanical Keyboard</name>
+                <price currency="EUR">149.99</price>
+                <warranty months="12"/>
+            </product>
+        </products>
+        
+        <services>
+            <service id="SV001" duration="30-min">
+                <name>Device Diagnostic</name>
+                <price currency="EUR">19.99</price>
+            </service>
+            
+            <service id="SV002" duration="1-hour">
+                <name>Screen Replacement</name>
+                <price currency="EUR">89.99</price>
+            </service>
+        </services>
+        
+    </catalog>
+
+
+    
+</business>
