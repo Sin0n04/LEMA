@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE business SYSTEM "bussinessType.dtd">
 <business id = "B1" type = "miscellanious">
     <departments>
         <department id="S1">
@@ -38,26 +39,26 @@
         <employee id="E1" status = "full-time">
             <name>Carlos Fernandez</name>
             <position>Sales Associate</position>
-            <contact>
-                <phone>444444444</phone>
-            </contact>
+            <contact-e>
+                <phone-e>444444444</phone-e>
+            </contact-e>
             
         </employee>
         
         <employee id="E2" status = "part-time">
             <name>Ana Lopez</name>
             <position>Cashier</position>
-            <contact>
-                <phone>555555555</phone>
-            </contact>
+            <contact-e>
+                <phone-e>555555555</phone-e>
+            </contact-e>
         </employee>
         
         <employee id="E3" status = "full-time">
             <name>Javier gonzalez</name>
             <position>Inventory Specialist</position>
-            <contact>
-                <phone>666666666</phone>
-            </contact>
+            <contact-e>
+                <phone-e>666666666</phone-e>
+            </contact-e>
         </employee>
     </employees>
     
