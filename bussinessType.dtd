@@ -2,7 +2,7 @@
 
 <!ELEMENT business (departments | location | manager | employees | catalog)*>
 
-<!ATTLIST business id ID #REQUIRED>
+<!ATTLIST business id ID #FIXED "B1">
 <!ATTLIST business type ID #REQUIRED>
 
 <!ELEMENT location (city,address)>
