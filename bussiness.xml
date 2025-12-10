@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!DOCTYPE business SYSTEM "bussinessType.dtd">
 <business id = "B1" type = "miscellanious">
     <departments>
         <department id="S1">
@@ -30,7 +31,7 @@
         <name>Margarita Jimenez</name>
         <contact>
             <phone>333333333</phone>
-            <email>margaritajimenez@gmail.com</email>
+            
         </contact>
     </manager>
     
@@ -40,6 +41,7 @@
             <position>Sales Associate</position>
             <contact>
                 <phone>444444444</phone>
+                
             </contact>
             
         </employee>
@@ -49,6 +51,7 @@
             <position>Cashier</position>
             <contact>
                 <phone>555555555</phone>
+                
             </contact>
         </employee>
         
@@ -57,6 +60,7 @@
             <position>Inventory Specialist</position>
             <contact>
                 <phone>666666666</phone>
+                
             </contact>
         </employee>
     </employees>
@@ -68,25 +72,24 @@
             <product id="P001" availability="in-stock">
                 <name>Gaming Laptop GX500</name>
                 <price currency="EUR">1299.99</price>
-                <warranty months="24"/>
+                <waranty months="24"></waranty>
             </product>
             
             <product id="P002" availability="out-of-stock">
                 <name>Wireless Mechanical Keyboard</name>
                 <price currency="EUR">149.99</price>
-                <warranty months="12"/>
             </product>
         </products>
         
         <services>
-            <service id="SV001" duration="30-min">
+            <service id="SV001" duration="half_hour">
                 <name>Device Diagnostic</name>
-                <price currency="EUR">19.99</price>
+                <price currency="EUR">19,99</price>
             </service>
             
-            <service id="SV002" duration="1-hour">
+            <service id="SV002" duration="one_hour">
                 <name>Screen Replacement</name>
-                <price currency="EUR">89.99</price>
+                <price currency="EUR">89,99</price>
             </service>
         </services>
         
