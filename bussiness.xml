@@ -31,7 +31,7 @@
         <name>Margarita Jimenez</name>
         <contact>
             <phone>333333333</phone>
-            <email>margaritajimenez@gmail.com</email>
+            
         </contact>
     </manager>
     
@@ -39,26 +39,29 @@
         <employee id="E1" status = "full-time">
             <name>Carlos Fernandez</name>
             <position>Sales Associate</position>
-            <contact-e>
-                <phone-e>444444444</phone-e>
-            </contact-e>
+            <contact>
+                <phone>444444444</phone>
+                
+            </contact>
             
         </employee>
         
         <employee id="E2" status = "part-time">
             <name>Ana Lopez</name>
             <position>Cashier</position>
-            <contact-e>
-                <phone-e>555555555</phone-e>
-            </contact-e>
+            <contact>
+                <phone>555555555</phone>
+                
+            </contact>
         </employee>
         
         <employee id="E3" status = "full-time">
             <name>Javier gonzalez</name>
             <position>Inventory Specialist</position>
-            <contact-e>
-                <phone-e>666666666</phone-e>
-            </contact-e>
+            <contact>
+                <phone>666666666</phone>
+                
+            </contact>
         </employee>
     </employees>
     
@@ -69,25 +72,24 @@
             <product id="P001" availability="in-stock">
                 <name>Gaming Laptop GX500</name>
                 <price currency="EUR">1299.99</price>
-                <warranty months="24"/>
+                <waranty months="24"></waranty>
             </product>
             
             <product id="P002" availability="out-of-stock">
                 <name>Wireless Mechanical Keyboard</name>
                 <price currency="EUR">149.99</price>
-                <warranty months="12"/>
             </product>
         </products>
         
         <services>
-            <service id="SV001" duration="30-min">
+            <service id="SV001" duration="half_hour">
                 <name>Device Diagnostic</name>
-                <price currency="EUR">19.99</price>
+                <price currency="EUR">19,99</price>
             </service>
             
-            <service id="SV002" duration="1-hour">
+            <service id="SV002" duration="one_hour">
                 <name>Screen Replacement</name>
-                <price currency="EUR">89.99</price>
+                <price currency="EUR">89,99</price>
             </service>
         </services>
         
