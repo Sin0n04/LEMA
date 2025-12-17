@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="business">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name = "departments">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name = "department">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name = "name" type="xs:string"/>
+                                        <xs:element name = "description" type="xs:string"/>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:string"/>
+                                </xs:complexType>
+
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name = "location">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="city" type="xs:string"/></xs:element>
+                            <xs:element name="city">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element></xs:element>
+                                        <xs:element></xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+
+                        </xs:sequence>
+                        <xs:attribute name="country" type = "xs:string"/>
+                        <xs:attribute name="region" type="xs:string"/>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name = "manager"></xs:element>
+                <xs:element name = "employees"></xs:element>
+                <xs:element name = "catatlog"></xs:element>
+
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:string"/>
+            <xs:attribute name = "type" type="xs:string"/>
+
+        </xs:complexType>
+        
+    </xs:element>
+</xs:schema>
