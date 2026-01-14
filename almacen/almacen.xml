@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="almacenEA.xsl"?>
+<almacen>
+	<iva>21</iva>
+	<marcas>
+		<marca codigo="SUC">
+			<nombre>SUCONEL</nombre>
+			<web>www.suconel.com</web>
+		</marca>
+		<marca codigo="ACC">
+			<nombre>ACCESA</nombre>
+			<web>www.accesa.com.uy</web>
+		</marca>
+		<marca codigo="Bol">
+			<nombre>Bollhoff</nombre>
+			<web>www.bollhoff.es/es/es.php</web>
+		</marca>
+		<marca codigo="PRO">
+			<nombre>PROSKIT</nombre>
+			<web>www.proskit.com</web>
+		</marca>
+	</marcas>
+	<producto id="p0001" marca="SUC">
+		<nombre>SET DE LLAVES HEXÁGONAS</nombre>
+		<modelo>8PK021N</modelo>
+		<cantidad>12</cantidad>
+		<precio moneda="euro">10.6</precio>
+		<ganancia>20</ganancia>
+		<imagen>Juego-de-Llaves-Hexagonas-suconel.jpg</imagen> 
+	</producto>
+	<producto id="p0002" marca="ACC">
+		<nombre>Llave para tubo de 8"</nombre>
+		<modelo>TR345</modelo>
+		<cantidad>5</cantidad>
+		<precio moneda="euro">20</precio>
+		<ganancia>15</ganancia>
+		<imagen>Llave-para-tubo-de-8.jpg</imagen> 
+	</producto>
+	<producto id="p0003" marca="Bol">
+		<nombre>Llave De Torque tw307</nombre>
+		<modelo>tw307</modelo>
+		<cantidad>2</cantidad>
+		<precio moneda="euro">32</precio>
+		<ganancia>25</ganancia>
+		<imagen>Llave-De-Torque.jpg</imagen> 
+	</producto>
+	<producto id="p0004" marca="ACC">
+		<nombre>Juego de llaves India</nombre>
+		<modelo>rd345s</modelo>
+		<cantidad>7</cantidad>
+		<precio moneda="euro">31.5</precio>
+		<ganancia>15</ganancia>
+		<imagen>Juego-de-llaves-India.png</imagen> 
+	</producto>
+	<producto id="p0005" marca="PRO">
+		<nombre>SET LLAVES HEXÁGONAS</nombre>
+		<modelo>8PK0221</modelo>
+		<cantidad>12</cantidad>
+		<precio moneda="euro">16.3</precio>
+		<ganancia>18</ganancia>
+		<imagen>Juego-de-Llaves-Hexagonas-proskit.jpg</imagen> 
+	</producto>
+	<producto id="p0006" marca="Bol">
+		<nombre>Llave Bristol</nombre>
+		<modelo>57324</modelo>
+		<cantidad>4</cantidad>
+		<precio moneda="euro">34.05</precio>
+		<ganancia>7</ganancia>
+		<imagen>Llave-Bristol.jpg</imagen> 
+	</producto>
+	<producto id="p0007" marca="ACC">
+		<nombre>Llave de expansión</nombre>
+		<modelo>1751</modelo>
+		<cantidad>12</cantidad>
+		<precio moneda="euro">38.65</precio>
+		<ganancia>16</ganancia>
+		<imagen>Llave-de-expansión.jpg</imagen> 
+	</producto>
+	<producto id="p0008" marca="SUC">
+		<nombre>Llave copa torx</nombre>
+		<modelo>26590</modelo>
+		<cantidad>5</cantidad>
+		<precio moneda="euro">35.8</precio>
+		<ganancia>6</ganancia>
+		<imagen>Llave-copa-torx.png</imagen> 
+	</producto>
+	<producto id="p0009" marca="PRO">
+		<nombre>Llave de carraca</nombre>
+		<modelo>R453W</modelo>
+		<cantidad>12</cantidad>
+		<precio moneda="euro">17.4</precio>
+		<ganancia>15</ganancia>
+		<imagen>Llave-de-carraca-proskit.jpg</imagen> 
+	</producto>
+	<producto id="p0010" marca="PRO">
+		<nombre>Llave de expansión</nombre>
+		<modelo>TR123</modelo>
+		<cantidad>4</cantidad>
+		<precio moneda="euro">32.7</precio>
+		<ganancia>15</ganancia>
+		<imagen>Llave-de-expansión-proskit.jpg</imagen> 
+	</producto>
+	<producto id="p0011" marca="ACC">
+		<nombre>Llave de cadena</nombre>
+		<modelo>TR123</modelo>
+		<cantidad>16</cantidad>
+		<precio moneda="euro">43</precio>
+		<ganancia>21</ganancia>
+		<imagen>Llave-de-cadena.jpg</imagen> 
+	</producto>
+	<producto id="p0012" marca="SUC">
+		<nombre>Llave de carraca</nombre>
+		<modelo>45123</modelo>
+		<cantidad>11</cantidad>
+		<precio moneda="euro">21.2</precio>
+		<ganancia>17</ganancia>
+		<imagen>Llave-de-carraca-suconel.jpg</imagen> 
+	</producto>
+	<producto id="p0013" marca="Bol">
+		<nombre>Kit llave y tuerca para pulidora</nombre>
+		<modelo>BSER2</modelo>
+		<cantidad>3</cantidad>
+		<precio moneda="euro">46.9</precio>
+		<ganancia>12</ganancia>
+		<imagen>Kit-llave-y-tuerca-para-pulidora.jpg</imagen> 
+	</producto>
+	<producto id="p0014" marca="SUC">
+		<nombre>Llaves mixtas de 3/8"</nombre>
+		<modelo>23789</modelo>
+		<cantidad>6</cantidad>
+		<precio moneda="euro">53</precio>
+		<ganancia>14</ganancia>
+		<imagen>Llaves-mixtas.jpg</imagen> 
+	</producto>
+	<producto id="p0015" marca="PRO">
+		<nombre>Llaves mixtas de 3/8"</nombre>
+		<modelo>RE321</modelo>
+		<cantidad>1</cantidad>
+		<precio moneda="euro">59</precio>
+		<ganancia>21</ganancia>
+		<imagen>Llaves-mixtas-proskit.png</imagen> 
+	</producto>
+</almacen>
