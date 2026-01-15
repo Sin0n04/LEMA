@@ -1,7 +1,9 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
     background-color: #f4f4f4;
     margin: 0;
+    font-weight: bolder;
+    font-size: larger;
 }
 
 header {
@@ -16,6 +18,7 @@ section {
 }
 
 table{
+    background-color: rgb(124, 180, 202);
     width: 200px;
    border-color: #1f2933;
    border-style: solid;
@@ -45,7 +48,6 @@ nav {
 
 nav table{
     width: 460px;
-    padding: auto;
     text-align: center;
    border-color: #6d849b;
    border-style: solid;
@@ -53,6 +55,12 @@ nav table{
    border-radius: 10px;
    margin-left: 10px;
 
+}
+
+.modelo, .precio, .cantidad, .imagen {
+    font-weight: bold;
+    background-color: rgb(165, 185, 129);
+    border-radius: 20px;
 }
 
 nav table th {
@@ -63,9 +71,31 @@ nav table td {
     background-color: #eee4af;
     margin: 10px;
 }
+nav table td:hover {
+    background-color: #ccedf1;
+    margin: 10px;
+}
 
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 
+img{
+    background-color: darkolivegreen;
+    width: 400px;
+    height: auto;
+}
 
+.out{
+    background-color: rgb(255, 58, 58);
+}
 
+.low{
+    background-color: rgb(255, 196, 0);
+}
 
-
+.in-stock{
+    background-color: rgb(165, 185, 129);
+}
